@@ -1,0 +1,36 @@
+html {
+  height: 100vh; }
+
+body {
+  font-family: 'comic sans ms', sans;
+  color: #CCB575;
+  background-image: url("flag.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  min-width: 800;
+}
+
+.linx{
+	float: right;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	background-color: rgba(0,0,0,.45);
+	width: 400px;
+	height: 100vh;
+}
+
+h3{
+	text-align: center;
+	width: 100%;
+	text-shadow:
+	-1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
