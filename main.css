@@ -34,3 +34,37 @@ h3{
     -1px 1px 0 #000,
     1px 1px 0 #000;
 }
+
+h2{
+  text-align: center;
+  width: 100%;
+  text-shadow:
+  -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+h4{
+  text-align: center;
+  width: 100%;
+  text-shadow:
+  -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.dropdown{
+  height: auto;
+  transition: height 2s;
+  -webkit-transition: height 2s;
+}
+
+.dropdown h4{
+  display: none;
+}
+
+.dropdown:hover h4{
+  display: block;
+}
